@@ -5,4 +5,7 @@ def search_list(a, b):
             result.append(i)
     return result
 
-
+a = "SPAM"
+b = "SAM"
+f = search_list(a, b)
+print(f)
