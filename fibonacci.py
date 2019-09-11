@@ -12,6 +12,7 @@ def fibo(n):
     print(memo)
     return f
 
-a = fibo(8)
-print(a)
+if __name__=='__main__':
+    a = fibo(6)
+    print(a)
 
